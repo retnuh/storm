@@ -29,6 +29,8 @@ do
 	cd ..
 done
 
+rm $DIR/lib/storm-*$RELEASE.jar
+
 cp CHANGELOG.md $DIR/
 
 echo $RELEASE > $DIR/RELEASE
